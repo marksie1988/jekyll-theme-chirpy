@@ -4,8 +4,10 @@
 
 /* sidebar */
 
-$sidebar-width: 260px !default; /* the basic width */
-$sidebar-width-large: 300px !default; /* screen width: >= 1650px */
+$sidebar-width: 260px !default;
+/* the basic width */
+$sidebar-width-large: 300px !default;
+/* screen width: >= 1650px */
 $sb-btn-gap: 0.8rem !default;
 $sb-btn-gap-lg: 1rem !default;
 
@@ -14,7 +16,8 @@ $sb-btn-gap-lg: 1rem !default;
 $topbar-height: 3rem !default;
 $search-max-width: 200px !default;
 $footer-height: 5rem !default;
-$footer-height-large: 6rem !default; /* screen width: < 850px */
+$footer-height-large: 6rem !default;
+/* screen width: < 850px */
 $main-content-max-width: 1250px !default;
 $base-radius: 0.625rem !default;
 $back2top-size: 2.75rem !default;
@@ -26,6 +29,17 @@ $code-header-height: 2.25rem !default;
 $code-dot-size: 0.75rem !default;
 $code-dot-gap: 0.5rem !default;
 $code-icon-width: 1.75rem !default;
+$primary: #ff5e00;
+$secondary: #6c757d;
+$success: #28a745;
+$info: #17a2b8;
+$warning: #ffc107;
+$danger: #dc3545;
+$light: #f8f9fa;
+$dark: #343a40;
+$text-black: #343a40;
+$text-white: rgba(white, .9);
+$rounded-borders: 15px;
 
 /* fonts */
 
