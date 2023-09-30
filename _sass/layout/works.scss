@@ -195,6 +195,7 @@
         transform: translate3d(0, -3px, 0);
         box-shadow: 0 10px 15px -4px rgba(0, 0, 0, 0.15);
       }
+
     }
 
     p {
@@ -408,6 +409,9 @@
 
     .card-img-top {
       border-radius: $rounded-borders $rounded-borders 0 0;
+    }
+    .card-title {
+      color: var(--heading-color);
     }
     .card-body {
       border-radius: 0 0 $rounded-borders $rounded-borders;
