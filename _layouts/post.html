@@ -75,8 +75,12 @@ tail_includes:
       </div>
       <!-- .d-flex -->
     </div>
-    {% include post-series.html %}
     <!-- .post-meta -->
+    {% include post-series.html %}
+
+    <!-- post_age_banner -->
+    {% include post-age-banner.html post-date=page.date modified-date=page.last_modified_at age=site.post_age_banner.age_months %}
+
   </header>
 
   <div class="content">
